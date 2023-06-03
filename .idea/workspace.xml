@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b91ab7ad-968b-467a-89df-74436e602d5d" name="Changes" comment="Necessary packages imported, navigating to travel insurance purchase form implemented.">
+    <list default="true" id="b91ab7ad-968b-467a-89df-74436e602d5d" name="Changes" comment="Destination selection and activity selection tests implemented.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lv/bta/CelojumaPolisesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lv/bta/CelojumaPolisesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lv/bta/CelojumaPolisesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lv/bta/TravelInsuranceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,32 +32,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowBuild.ShowToolbar": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowBuild.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.CelojumaPolisesTest.testActivitySelection">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv.bta.Main" />
-      <module name="bta-celojumu-polises-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lv.bta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CelojumaPolisesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="TestNG.TravelInsuranceTest">
+    <configuration name="TravelInsuranceTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="bta-celojumu-polises-tests" />
       <extension name="coverage">
         <pattern>
@@ -66,7 +53,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lv.bta" />
-      <option name="MAIN_CLASS_NAME" value="lv.bta.CelojumaPolisesTest" />
+      <option name="MAIN_CLASS_NAME" value="lv.bta.TravelInsuranceTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -74,7 +61,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CelojumaPolisesTest.boilerplateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TravelInsuranceTest.boilerplateTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="bta-celojumu-polises-tests" />
       <extension name="coverage">
         <pattern>
@@ -83,7 +70,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lv.bta" />
-      <option name="MAIN_CLASS_NAME" value="lv.bta.CelojumaPolisesTest" />
+      <option name="MAIN_CLASS_NAME" value="lv.bta.TravelInsuranceTest" />
       <option name="METHOD_NAME" value="boilerplateTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -92,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CelojumaPolisesTest.testActivitySelection" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TravelInsuranceTest.testActivitySelection" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="bta-celojumu-polises-tests" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +88,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lv.bta" />
-      <option name="MAIN_CLASS_NAME" value="lv.bta.CelojumaPolisesTest" />
+      <option name="MAIN_CLASS_NAME" value="lv.bta.TravelInsuranceTest" />
       <option name="METHOD_NAME" value="testActivitySelection" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelInsuranceTest.testPopupForm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bta-celojumu-polises-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv.bta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv.bta" />
+      <option name="MAIN_CLASS_NAME" value="lv.bta.TravelInsuranceTest" />
+      <option name="METHOD_NAME" value="testPopupForm" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelInsuranceTest.testTravelerFields" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bta-celojumu-polises-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv.bta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv.bta" />
+      <option name="MAIN_CLASS_NAME" value="lv.bta.TravelInsuranceTest" />
+      <option name="METHOD_NAME" value="testTravelerFields" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,10 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CelojumaPolisesTest.testActivitySelection" />
-        <item itemvalue="TestNG.CelojumaPolisesTest" />
-        <item itemvalue="TestNG.CelojumaPolisesTest.boilerplateTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.TravelInsuranceTest" />
+        <item itemvalue="TestNG.TravelInsuranceTest.testTravelerFields" />
+        <item itemvalue="TestNG.TravelInsuranceTest.testPopupForm" />
+        <item itemvalue="TestNG.TravelInsuranceTest.testActivitySelection" />
+        <item itemvalue="TestNG.TravelInsuranceTest.boilerplateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685723404293</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Destination selection and activity selection tests implemented.">
+      <created>1685730499545</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685730499545</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,7 +190,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Boilerplate code for the tests created." />
     <MESSAGE value="Necessary packages imported, navigating to travel insurance purchase form implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="Necessary packages imported, navigating to travel insurance purchase form implemented." />
+    <MESSAGE value="Destination selection and activity selection tests implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="Destination selection and activity selection tests implemented." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
