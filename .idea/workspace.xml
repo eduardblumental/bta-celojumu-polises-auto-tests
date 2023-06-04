@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b91ab7ad-968b-467a-89df-74436e602d5d" name="Changes" comment="Destination selection and activity selection tests implemented.">
+    <list default="true" id="b91ab7ad-968b-467a-89df-74436e602d5d" name="Changes" comment="Popup form and traveler fields tests implemented.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lv/bta/TravelInsuranceWeb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lv/bta/CelojumaPolisesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lv/bta/TravelInsuranceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lv/bta/TravelInsuranceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lv/bta/TravelInsuranceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685730499545</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Popup form and traveler fields tests implemented.">
+      <created>1685815490169</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685815490169</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +199,8 @@
     <MESSAGE value="Boilerplate code for the tests created." />
     <MESSAGE value="Necessary packages imported, navigating to travel insurance purchase form implemented." />
     <MESSAGE value="Destination selection and activity selection tests implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="Destination selection and activity selection tests implemented." />
+    <MESSAGE value="Popup form and traveler fields tests implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="Popup form and traveler fields tests implemented." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
