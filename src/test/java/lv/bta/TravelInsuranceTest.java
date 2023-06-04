@@ -14,9 +14,7 @@ public class TravelInsuranceTest {
     public void setup() { web.openTravelInsurancePage(); }
 
     @AfterClass
-    public void tearDown() {
-        web.closeDriver();
-    }
+    public void tearDown() { web.closeDriver(); }
 
     @Test(priority = 1)
     public void testDestinationSelection() {
